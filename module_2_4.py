@@ -14,4 +14,5 @@ for i in range(2, c + 1):
         not_primes.append(i)
 print(primes)
 print(not_primes)
+print(f"Простые числа {tuple(primes)} и составные {tuple(not_primes)}")
 
